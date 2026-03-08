@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* ถ้าคุณยังอยากใช้ Plugin สำหรับ Animation ของ Tailwind v4 */
+@import "tw-animate-css"; 
+
+@layer base {
+  body {
+    /* ตั้งค่าพื้นฐานแบบ Clean */
+    font-family: system-ui, sans-serif;
+  }
+}
